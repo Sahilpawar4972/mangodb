@@ -1,0 +1,9 @@
+public class sanu1 {
+    public static void sanu(Integer part) {
+        Integer total=500;
+        Integer percentage = (part * 100) / total;
+        System.debug('The percentage is: ' + percentage);
+    }
+}
+
+sanu1.sanu(222)
