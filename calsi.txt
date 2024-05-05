@@ -1,0 +1,35 @@
+public class ss{
+    
+    public static Integer add(Integer num1, Integer num2) {
+        return num1 + num2;
+       
+        
+    }
+    public static Integer sub(Integer num1, Integer num2){
+        return num1 - num2;
+        
+    }
+    public static Integer mul(Integer num1, Integer num2) {
+        return num1 * num2;
+        
+    }
+    public static Integer div(Integer num1, Integer num2){
+        return num1 / num2;
+    }
+        
+
+ }
+
+Integer result=ss.add(5,5);
+system.debug('add'+result);
+Integer result1=ss.sub(5,4);
+system.debug('sub'+result1);
+Integer result2=ss.mul(5,4);
+system.debug('mul'+result2);
+Integer result3=ss.div(25,5);
+system.debug('div'+result1);
+ 
+
+
+
+
